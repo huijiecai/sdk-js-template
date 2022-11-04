@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        //ts需要引用的库，即声明文件，es5默认引入dom，es5、scripthost，如果需要es更高版本特效，通常都需要配置
+        "lib": ["DOM", "ES6"],
+        //目标js语言版本
+        "target": "ES5",
+        //生产代码的模板标准
+        "module": "commonjs",
+        //生成目标文件的sourceMap文件
+        "sourceMap": true,
+        //不允许隐式的any类型
+        "noImplicitAny": true,
+        //生成声明文件d.ts
+        "declaration": true
+    },
+    "exclude": ["node_modules"]
+}
