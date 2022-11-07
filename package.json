@@ -4,14 +4,11 @@
   "description": "sdk js test",
   "main": "src/index.ts",
   "scripts": {
-    "build": "rd /s /q lib && tsc --outDir lib",
-    "main": "ts-node src/index.ts"
+    "build": "rd /s /q lib && tsc --outDir lib"
   },
   "author": "huijiecai",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.1247.0",
-    "ts-node-dev": "^2.0.0",
     "typescript": "^4.8.4"
   }
 }
